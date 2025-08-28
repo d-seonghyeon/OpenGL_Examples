@@ -18,7 +18,9 @@ project(${PROJECT_NAME})
 add_executable(${PROJECT_NAME} 
     src/main.cpp
     src/common.cpp
+    src/common.h
     src/shader.cpp
+    src/shader.h
     src/glad.c
 
         ${DEP_SRCS})
