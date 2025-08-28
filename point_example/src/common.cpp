@@ -9,6 +9,6 @@ std::optional<std::string> LoadTextFile(const std::string& filename){
         return {};
     }
     std::stringstream text;
-    text << fin.rduf();
+    text << fin.rdbuf();
     return text.str();
 }

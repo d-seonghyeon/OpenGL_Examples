@@ -1,0 +1,25 @@
+1. Frame buffer swap
+
+: 화면에 그림을 그리는 과정
+	프레임버퍼를 2개를 준비(front/back)
+	back buffer에 그림 그리기
+	front와 back을 바꿔치기
+	위의 과정을 반복
+*그림이 그려지는 과정이 노출되지 않도록 해줌
+
+
+2. Opengl remarks
+
+  1):
+	glViewport(): OpenGL이 그림을 그릴 화면의 위치 및 크기 설정
+	glClearCollor(): 컬러 프레임 버퍼 화면을 클리어 할 색상 지정
+	glClear(): 프레임 버퍼 클리어
+
+
+  2):
+	State-setting function
+		State가 OpenGL context에 저장됨
+		glViewport(), glClearColor()
+	State-using function
+		OpenGL context에 저장된 State를 이용
+		glClear()

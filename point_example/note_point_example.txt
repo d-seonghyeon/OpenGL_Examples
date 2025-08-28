@@ -1,10 +1,18 @@
 1. Shader class design
 
 Shader 클래스 설계
-	OpenGL shader object를 가지고 있다.
+	1) OpenGL shader object를 가지고 있다.
 	인스턴스가 생성될 때 로딩할 파일명을 입력받자
 	입력된 파일명으로부터 인스턴스 생성이 실패하면 메모리 할당 해제
 	c++ 11 smart pointer 활용
+
+
+	2) 생성자 private인 이유: CreateFromFile() 함수외에 shader 인스턴스 생성 막기 위해서
+	get()은 있는데 set()은 없는 이유: shader 오브젝트의 생성 관리는 shader 내부에서만 관리
+	loadfile()이 bool을 리턴하는 이유: 생성에 실패할 경우 false를 리턴하기 위해서
+
+
+
 
 
 2. Smart pointer

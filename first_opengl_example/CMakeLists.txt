@@ -4,10 +4,10 @@ cmake_policy(VERSION 3.13...4.1)
 
 
 # 프로젝트 이름 및 C++ 표준 설정
-set(PROJECT_NAME point_example) #프로젝트 이름
+set(PROJECT_NAME first_opengl_example) #프로젝트 이름
 set(CMAKE_CXX_STANDARD 17)
 
-set(WINDOW_NAME "point_example")
+set(WINDOW_NAME "first_opengl_example")
 set(WINDOW_WIDTH 960)
 set(WINDOW_HEIGHT 540)
 
@@ -17,8 +17,6 @@ project(${PROJECT_NAME})
 
 add_executable(${PROJECT_NAME} 
     src/main.cpp
-    src/common.cpp
-    src/shader.cpp
     src/glad.c
 
         ${DEP_SRCS})
@@ -37,7 +35,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC external/glad/include)
 #
 target_compile_definitions(${PROJECT_NAME} PUBLIC
 
-    WINDOW_NAME="point_example"
+    WINDOW_NAME="first_opengl_example"
     WINDOW_WIDTH=${WINDOW_WIDTH}
     WINDOW_HEIGHT=${WINDOW_HEIGHT}
 
