@@ -1,0 +1,50 @@
+1. Shader class design
+
+Shader 클래스 설계
+	OpenGL shader object를 가지고 있다.
+	인스턴스가 생성될 때 로딩할 파일명을 입력받자
+	입력된 파일명으로부터 인스턴스 생성이 실패하면 메모리 할당 해제
+	c++ 11 smart pointer 활용
+
+
+2. Smart pointer
+
+	1) c++11 좀더 안전한 포인터
+
+	메모리 할당을 받을 때 소유권에 대한 정보가 있다.
+	명시적인 delete 구문이 필요없다.
+	std::unique_ptr<>: 해당 메모리 블록을 단독으로 소유
+	std::shared_ptr<>: 해당 메모리 블록의 소유권을 공유
+	std::weak_ptr<>: 해당 메모리 소유권은 없지만 접근은 가능
+
+	
+	*어떻게 더 안전한가? 
+		1)unique_ptr<>을 사용하는 경우: 소유권을 가진 인스턴스가
+		스코프 밖으로 벗어났을때 메모리 자동 해제
+
+		ex) std::unique_ptr<int> a =std::make_unique();
+		    int *b=a.get();
+
+		2)unique_ptr를 사용하는 경우: 소유권을 가진 인스턴스가 일반적인 방법으로 다른 쪽에
+		소유권을 이전하려는 경우 에러 발생
+		
+		ex) std::unique_ptr<int> a= std::make_unique();
+		    std::unique_ptr<int> b=a; //에러 발생
+
+
+		3)std::move() 함수를 사용해서 명시적으로 소유권 이전 가능. 대신 이전에 소유권을 가진
+		  인스턴스는 nullptr를 갖게됨
+
+
+		{
+		 std::unique_ptr<int> a= std::make_unique();
+		 std::unique_ptr<int> b= std:move(a);
+		}
+		
+	
+
+	2)
+
+
+
+

@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/SH/Desktop/Computer_Graphics/OpenGL/CMAKE_PROJECT_EXAMPLE/src/main'
+relocations:     []
+...
