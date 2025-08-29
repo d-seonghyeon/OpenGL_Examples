@@ -5,10 +5,13 @@
 
 
 //frambuffer 변경시 callback 함수
+
+
 void OnFramebufferSizeChange(GLFWwindow *window, int width ,int height){
     SPDLOG_INFO("framebuffer size changed: ({} x {})", width, height);
     glViewport(0,0,width,height);
 }
+
 
 //keyboard 입력시 callback 함수
 void OnKeyEvent(GLFWwindow *window, int key, int scancode,int action, int mods){
@@ -52,6 +55,7 @@ int main() {
 
     //glfw 윈도우 생성, 실패하면 에러 출력 후 종료
     SPDLOG_INFO("Create glfw window");
+    
     auto window = glfwCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, WINDOW_NAME,nullptr,nullptr);
     
     if(!window){
@@ -80,9 +84,15 @@ int main() {
         return -1;
     }
 
+    //mac OS 프레임버퍼(창 크기) 초기값과, 윈도우 논리값과 다르기 때문에 viewport 전에 fdwidth값과 fdheight를 버퍼값으로 바꿔줘야 삼각형이 정중앙에옴
+    int fbWidth; 
+    int fbHeight;
+    glfwGetFramebufferSize(window,&fbWidth,&fbHeight);
+
+
 
     //윈도우 생성 직후에는 프레임 버퍼 변경 이벤트가 발생하지 않으므로 첫 호출을 수동으로 한다.
-    OnFramebufferSizeChange(window,WINDOW_WIDTH,WINDOW_HEIGHT);
+    OnFramebufferSizeChange(window,fbWidth,fbHeight);
 
     //창크기 변경시 콜백 함수 호출
     glfwSetFramebufferSizeCallback(window, OnFramebufferSizeChange);

@@ -1,0 +1,100 @@
+**삼각형 만들기**
+
+1. 정점 입력
+
+	1) 정점 데이터 준비
+	2) vertex buffer object(VBO) 준비
+	3) vertex buffer object에 정점 데이터 입력
+		cpu memory 상에 있는 정점 데이터를 gpu에 옮기는 작업
+	4)vertex array object(VAO) 준비
+		우리의 정점 데이터의 구조를 알려주는 descriptor object
+	5)program, VBO, VAO를 사용하여 그림 그리기
+
+
+*vertex buffer object(VBO)
+
+	정점 데이터를 담은 버퍼 오브젝트
+	정점에 대한 다양한 데이터를 GPU가 접근 가능한 메모리에 저장해둔다.
+
+	ex)position, normal, tangent, color, texture coordinate
+
+
+	*함수 설명
+	
+	glGenBUffers(): 새로운 buffer object를 만든다.
+	glBindBuffer(): 지금부터 사용할 buffer object를 지정한다.
+
+		GL_ARRAY_BUFFER: 사용할 buffer object는 vertex data를 저장할 용도임을 알려줌
+
+	glBufferData(): 지정된 buffer에 데이터를 복사한다.
+
+		데이터의 총 크기, 데이터 포인터, 용도를 지정
+
+		용도는 "STATIC | DYNAMIC | STREAM", "DRAW | COPY | READ"의 조합
+
+		*flag 설명		
+		
+		STATIC: 딱 한번만 세팅되고 앞으로 계속 쓸 예정
+		DYNAMIC: 앞으로 데이터가 자주 바뀔 예정
+		STREAM: 딱 한번만 세팅되고 몇번 쓰다가 버려질 예정
+
+		-용도에 맞는 flag 지정해야 효율 up
+
+
+		ex) GL_DYNAMIC_DRAW, GL_STREAM_DRAW, GL_STATIC_READ 등등, 9가지 조합
+
+
+		ex) glBufferData(GL_ARRAY_BUFFER, sizeof(float)*9,vertices,GL_STATIC_DRAW);
+
+
+
+
+*vertex array object(VAO)
+
+	정점 데이터 구조를 알려주는 오브젝트
+
+	각 정점은 몇 byte로 구성되어 있는가?
+
+	두 정점은 몇 byte만큼 떨어져 있는가?
+
+	정점의 0번째 데이터는 어떤 사이즈의 데이터가 몇개 있는 형태인가?
+
+
+
+
+	*함수 설명
+
+	glGenVertexArrays(): VAO 생성
+	glBindVertexArray(): 지금부터 사용할 VAO 설정
+	glEnableVertexAttribArray(n): 정점 attribute 중 n번째를 사용하도록 설정
+
+
+	glVertexAttribPointer(n,size,type,normalized,stride,offset)
+
+		n: 정점의 n번째 attribue
+		size: 해당 attribute는 몇개의 값으로 구성되어 있는가?
+		type: 해당 attribute 데이터 타입
+		normalized: 0~1사이 값인가
+		stride: 두 정점간의 간격(byte 단위)
+		offset: 첫 정점의 해당 attribute까지의 간격(byte)
+
+
+
+*순서 주의
+
+VAO binding
+VBO binding
+
+Vertex attribute setting
+Vertex attribute 설정하기 전에 VBO가 바인딩 되어있을 것
+
+
+
+
+
+
+
+
+
+
+
