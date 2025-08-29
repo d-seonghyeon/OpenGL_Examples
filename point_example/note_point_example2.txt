@@ -1,0 +1,43 @@
+1. Program 클래스 설계
+
+	1): vertex shader, fragment shader를 연결한 pipeline program
+	
+	이 program 이용해서 최종적으로 그림을 그린다.
+
+	두개의 shader를 입력받아서 program 링크
+
+	싱크에 성공하면 opengl program object를 생성
+
+	실패하면 메모리 할당 해제
+
+
+	2): vertex, fragment shader외에 여러개의 shader를 링크할 수도 있게 함
+
+	shader 인스턴스 인자는 필요하지만 소유할 필요는 없음
+
+	shader 인스턴스는 다른 program 인스턴스를 만드는데 재사용할 수도 있음
+
+	따라서 shared pointer를 사용: ShaderPtr
+
+
+2.리팩토링(중요)
+
+프로그램 라이프사이클을 고려하여 코드 리팩토링
+	GLFW/OpenGL Context/ GLAD 초기화
+	그림을 그리기 위한 OpenGL objects 생성(shader/program)
+	렌더링
+	OpenGL objects 제거
+	GLFW 종료/ 프로그램 종료
+
+OpenGL object들을 관리하고 렌더링하는 코드를 분리하자
+
+
+*OpenGL remarks
+
+	glCreateProgram(): OpenGL program object 생성
+	glAttachShader(): program에 shader붙이기
+	glLinkProgram(): program 링크
+
+	glGetProgramiv(): program에 대한 정수형 정보를 얻어옴
+	glGetProgramInfoLog(): program에 대한 로그를 얻어옴. 링크 에러 얻어내는 용도로 사용
+	glDeleteProgram(): program object 제거

@@ -17,11 +17,12 @@ project(${PROJECT_NAME})
 
 add_executable(${PROJECT_NAME} 
     src/main.cpp
-    src/common.cpp
-    src/common.h
-    src/shader.cpp
-    src/shader.h
+    src/common.h src/common.cpp
+    src/shader.h src/shader.cpp
+    src/program.h src/program.cpp
+    src/context.h src/context.cpp
     src/glad.c
+   
 
         ${DEP_SRCS})
 

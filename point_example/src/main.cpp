@@ -1,6 +1,4 @@
-#include "common.h"
-#include "shader.h"
-
+#include "context.h"
 #include <spdlog/spdlog.h>
 #include <glad/glad.h>//순서 중요, 반드시 glfw 이전에 작성
 #include <GLFW/glfw3.h>
@@ -74,10 +72,13 @@ int main() {
     auto glVersion =glGetString(GL_VERSION);
     SPDLOG_INFO("OpenGL context version: {}",reinterpret_cast < const char*>(glVersion));
 
-    auto vertexShader = Shader::CreateFromFile("./shader/simple.vs",GL_VERTEX_SHADER);
-    auto fragmentShader = Shader::CreateFromFile("./shader/simple.fs",GL_FRAGMENT_SHADER);
-    SPDLOG_INFO("vertex shader id: {}", vertexShader ->Get());
-    SPDLOG_INFO("fragment shader id: {}", fragmentShader ->Get());
+    //context 초기화
+    auto context = Context::Create();
+    if(!context){
+        SPDLOG_ERROR("failed to create context");
+        glfwTerminate();
+        return -1;
+    }
 
 
     //윈도우 생성 직후에는 프레임 버퍼 변경 이벤트가 발생하지 않으므로 첫 호출을 수동으로 한다.
@@ -93,11 +94,10 @@ int main() {
     SPDLOG_INFO("Start main loop");
     while(!glfwWindowShouldClose(window)){
         glfwPollEvents();//이벤트 수집
-        glClearColor(0.0f,0.1f,0.2f,0.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
+        context->Render();
         glfwSwapBuffers(window);
     }
-
+    context.reset();
     glfwTerminate();
 
     return 0;
