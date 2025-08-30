@@ -13,6 +13,8 @@ class Program{
 
         ~Program();
         uint32_t Get() const {return m_program;}
+        void Use() const;
+
     private:
         Program(){}
         bool Link(const std::vector<ShaderPtr>& shaders);

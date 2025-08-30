@@ -12,29 +12,53 @@ ContextUPtr Context::Create(){
 bool Context::Init(){
 
     float vertices [] ={
-        -0.5f,-0.5f,0.0f,
-        0.5f,-0.5f,0.0f,
-        0.0f,0.5f,0.0f,
+
+        0.5f, 0.5f, 0.0f,//0번
+        0.5f, -0.5f, 0.0f,//1번
+        -0.5f,-0.5f, 0.0f,//2번
+        -0.5f, 0.5f, 0.0f//3번
+    };
+
+    uint32_t indices[]={
+        0,1,3,//first triangle
+        1,2,3//second triangle
     };
 
     //VAO 생성
+
+    m_vertexLayout= VertexLayout:: Create();
+
+    /*
     glGenVertexArrays(1,&m_vertexArrayObject); //VAO 생성
     glBindVertexArray(m_vertexArrayObject); //지금부터 사용할 VAO 설정
-
+    */
 
     //context::Init()에서 VBO 생성 및 정점 데이터를 GPU로 복사
+    
+
+    m_vertexBuffer = Buffer::CreateWithData(GL_ARRAY_BUFFER,GL_STATIC_DRAW,vertices,sizeof(float)*12);
+    
+    /*
     glGenBuffers(1,&m_vertexBuffer);
     glBindBuffer(GL_ARRAY_BUFFER,m_vertexBuffer);//m_vertexBuffer가 어떤 데이터가 들어있는 버퍼인지 GL_ARRAY_BUFFER에 바인딩해준다.
-    glBufferData(GL_ARRAY_BUFFER, sizeof(float)*9,vertices,GL_STATIC_DRAW);
-    //
+    glBufferData(GL_ARRAY_BUFFER, sizeof(float)*12,vertices,GL_STATIC_DRAW);
+    */
 
-    //
+    m_vertexLayout -> SetAttrib(0,3,GL_FLOAT,GL_FALSE,sizeof(float)*3,0);
 
+    /*
     glEnableVertexAttribArray(0); //정점 attribute 중 n번째를 사용하도록 설정
     glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE, sizeof(float)*3,0);
+    */
+
+    m_indexBuffer = Buffer:: CreateWithData(GL_ELEMENT_ARRAY_BUFFER, GL_STATIC_DRAW,indices,sizeof(uint32_t)*6);
 
 
-    //
+    /*
+    glGenBuffers(1,&m_indexBuffer);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER,m_indexBuffer);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER,sizeof(uint32_t)*6,indices,GL_STATIC_DRAW);
+    */
 
 
 
@@ -67,8 +91,9 @@ bool Context::Init(){
 void Context::Render(){
     glClear(GL_COLOR_BUFFER_BIT);//glClearColor의 색상으로 버퍼 초기화
 
-    glUseProgram(m_program->Get());
+    m_program ->Use();
     //glDrawArrays(GL_POINTS,0,1);
-    glDrawArrays(GL_TRIANGLES,0,3);
+
+    glDrawElements(GL_TRIANGLES,6,GL_UNSIGNED_INT,0);
 
 }

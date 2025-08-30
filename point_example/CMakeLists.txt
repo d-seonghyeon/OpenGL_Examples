@@ -21,6 +21,8 @@ add_executable(${PROJECT_NAME}
     src/shader.h src/shader.cpp
     src/program.h src/program.cpp
     src/context.h src/context.cpp
+    src/buffer.h src/buffer.cpp
+    src/vertex_layout.h src/vertex_layout.cpp
     src/glad.c
    
 
