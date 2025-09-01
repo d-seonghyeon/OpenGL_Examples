@@ -1,0 +1,6 @@
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/CMakeFiles/glsl.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/CMakeFiles/dep_spdlog.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/CMakeFiles/dep_glfw.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/CMakeFiles/dep_glad.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/CMakeFiles/edit_cache.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/CMakeFiles/rebuild_cache.dir

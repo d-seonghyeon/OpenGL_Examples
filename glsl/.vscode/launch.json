@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug with LLDB (CMake target)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/glsl",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "MIMode": "lldb"
+        }
+    ]
+}

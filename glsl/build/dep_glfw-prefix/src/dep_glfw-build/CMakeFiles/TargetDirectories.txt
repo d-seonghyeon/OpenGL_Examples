@@ -1,0 +1,15 @@
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/uninstall.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/edit_cache.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/rebuild_cache.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/list_install_components.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/install.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/install/local.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/install/strip.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/src/CMakeFiles/update_mappings.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/src/CMakeFiles/glfw.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/src/CMakeFiles/edit_cache.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/src/CMakeFiles/rebuild_cache.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/src/CMakeFiles/list_install_components.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/src/CMakeFiles/install.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/src/CMakeFiles/install/local.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glfw-prefix/src/dep_glfw-build/src/CMakeFiles/install/strip.dir

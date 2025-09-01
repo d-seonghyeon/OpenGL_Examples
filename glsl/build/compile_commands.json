@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"glsl\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/glsl.dir/src/main.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/main.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/main.cpp",
+  "output": "CMakeFiles/glsl.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"glsl\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/glsl.dir/src/common.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/common.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/common.cpp",
+  "output": "CMakeFiles/glsl.dir/src/common.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"glsl\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/glsl.dir/src/shader.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/shader.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/shader.cpp",
+  "output": "CMakeFiles/glsl.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"glsl\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/glsl.dir/src/program.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/program.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/program.cpp",
+  "output": "CMakeFiles/glsl.dir/src/program.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"glsl\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/glsl.dir/src/context.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/context.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/context.cpp",
+  "output": "CMakeFiles/glsl.dir/src/context.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"glsl\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/glsl.dir/src/buffer.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/buffer.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/buffer.cpp",
+  "output": "CMakeFiles/glsl.dir/src/buffer.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"glsl\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/glsl.dir/src/vertex_layout.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/vertex_layout.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/vertex_layout.cpp",
+  "output": "CMakeFiles/glsl.dir/src/vertex_layout.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build",
+  "command": "/usr/bin/clang -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"glsl\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/external/glad/include -g -arch arm64 -o CMakeFiles/glsl.dir/src/glad.c.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/glad.c",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/src/glad.c",
+  "output": "CMakeFiles/glsl.dir/src/glad.c.o"
+}
+]

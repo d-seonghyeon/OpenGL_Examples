@@ -1,0 +1,160 @@
+*uniform
+
+	1)shader에 전달 가능한 global value
+
+		병렬로 수행되는 모든 shader thread들이 동일한 값을 전달받는다.
+		
+	2)변수 선언 앞에 uniformtype qualifer를 써서 선언
+
+	/*
+	#version 330 core
+	out vec4 FragColor;
+	uniform vec4 ourColor;
+
+	void main(){
+		FragColor = ourColor;
+	}
+	*/
+
+	3)uniform variable에 값을 입력하는 과정
+
+		glGetUniformLocation()을 사용하여 program object로부터 uniform handle을 얻는다.
+
+		program이 바인딩 된 상태에서 glUniform...()을 사용하여 값을 입력한다.
+
+
+		Context::Init()에서 Program 인스턴스 생성 이후 uniform 값 입력과정 추가
+		/*
+		auto loc = glGetUniformLocation(m_program ->Get(),"color");
+		m_program ->Use();
+		glUniform4f(loc,1.0f,1.0f,0.0f,1.0f);
+		*/
+
+
+
+
+**Context::Render()에서 매 프레임마다 uniform 값을 다르게 입력해보자.
+
+	/*
+	void Context :: Render(){
+
+	glClear(GL_COLOR_BUFFER_BIT);
+	
+	static float time =0.0f;
+
+	float t = sinf(time) * 0.5f + 0.5f;
+
+	auto loc = glGetUniformLocation(m_program->Get(),"color");
+	m_program ->Use();
+	glUniform4f(loc, t*t, 2.0f*t*(1.0f-t),(1.0f-t)*(1.0f-t),1.0f);
+	glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT,0);
+
+	time += 0.016f;
+
+
+	}
+
+
+
+*Vertex Attributes
+
+	*하나의 vertex가 가지는 정보는 여러가지 일 수 있다.
+
+		position
+		normal
+		tangent
+		color
+		texture coordinates
+
+	*각각이 하나의 vertex attribute가 된다.
+
+	**vertex 별로 다른 색상을 가진 사각형을 그려보자.
+
+		attribute #0: position
+		attribute #1: color
+
+	1)Context::Init()에서 vertices 정보 변경
+	
+	/*
+	float vertices[]={
+
+	0.5f, 0.5f, 0.0f, 1.0f, 0.0f,0.0f, //top right, red
+	0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, //bottom right, green
+	-0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f, //bottom left, blue
+	-0.5f, 0.5f, 0.0f, 1.0f, 1.0f,0.0f,
+
+
+	}
+
+	m_vertexBuffer = Buffer::CreateWithData(GL_ARRAY_BUFFER,GL_STATIC_DRAW,vertices,sizeof(float)*24);
+
+	
+	*/
+
+	2)VertexLayout 인스턴스를 이용하여 두번째 attribute 설정
+
+	/*
+
+	m_vertexLayout -> SetAttrib(0,3,GL_FLOAT,GL_FALSE,sizeof(float) *6,0);
+	m_vertexLayout -> SetAttrib(1,3,GL_FLOAT,GL_FALSE,sizeof(float) *6, sizeof(float)*3); 
+
+	*/
+
+
+	3)shader/per_vertex_color.vs 작성
+
+	#version 330 core
+	layout(location=0) in vec3 aPos;
+	layout(location=1) in vec3 aColor;
+
+	out vec4 vertexColor;
+
+	void main(){
+
+	gl_Position = vec4(aPos,1.0);
+	vertexColor = vec4(aColor,1.0);
+
+
+	}
+
+	//
+
+	4)shader/per_vertex_color.fs 작성
+
+	#version 330 core
+
+	in vec4 vertexColor;
+	out vec4 fragColor;
+
+	void main(){
+
+    	fragColor=vertexColor;
+
+
+	}
+
+
+
+**정리
+
+	GLSL
+
+
+		c와 비슷한 문법 체계의 shader용 language
+		기본적인 수치값 타입 외에 벡터, 행렬 타입이 있음
+		in, out을 사용하여 각 shader의 입력 출력을 지정
+
+
+		vertex shader의 경우 layout을 사용하여 attribute index 지정
+		vertex shader의 경우 gl_Position을, fragment shader의 경우 픽셀의 최종 색상값을 출력해야 함
+		vertex shader의 out 변수들은 Rasterization 과정을 거쳐 픽셀 단위로 보간되어 fragment 
+		shader의 in 변수들로 입력
+
+		
+		uniform variable을 사용하면 shader에서 사용할 수 있는 global 값을 설정할 수 있음
+		glGetShaderLocation()으로 uniform handle을 얻을 수 있음
+		program이 바인딩된 상태에서 glUniform...()으로 uniform variable 값 설정 가능
+
+		필요에 따라 정점 별로 여러개의 attribute 설정하여 사용 가능
+
+
