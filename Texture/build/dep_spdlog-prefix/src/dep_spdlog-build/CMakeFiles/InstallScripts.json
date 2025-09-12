@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/dep_spdlog-prefix/src/dep_spdlog-build/cmake_install.cmake",
+		"/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/dep_spdlog-prefix/src/dep_spdlog-build/example/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

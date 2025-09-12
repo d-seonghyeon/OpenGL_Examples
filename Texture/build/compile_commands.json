@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"Texture\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Texture.dir/src/main.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/main.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/main.cpp",
+  "output": "CMakeFiles/Texture.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"Texture\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Texture.dir/src/common.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/common.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/common.cpp",
+  "output": "CMakeFiles/Texture.dir/src/common.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"Texture\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Texture.dir/src/shader.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/shader.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/shader.cpp",
+  "output": "CMakeFiles/Texture.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"Texture\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Texture.dir/src/program.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/program.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/program.cpp",
+  "output": "CMakeFiles/Texture.dir/src/program.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"Texture\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Texture.dir/src/context.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/context.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/context.cpp",
+  "output": "CMakeFiles/Texture.dir/src/context.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"Texture\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Texture.dir/src/buffer.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/buffer.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/buffer.cpp",
+  "output": "CMakeFiles/Texture.dir/src/buffer.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"Texture\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Texture.dir/src/vertex_layout.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/vertex_layout.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/vertex_layout.cpp",
+  "output": "CMakeFiles/Texture.dir/src/vertex_layout.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build",
+  "command": "/usr/bin/clang -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"Texture\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/external/glad/include -g -arch arm64 -o CMakeFiles/Texture.dir/src/glad.c.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/glad.c",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/glad.c",
+  "output": "CMakeFiles/Texture.dir/src/glad.c.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"Texture\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Texture.dir/src/image.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/image.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/image.cpp",
+  "output": "CMakeFiles/Texture.dir/src/image.cpp.o"
+}
+]

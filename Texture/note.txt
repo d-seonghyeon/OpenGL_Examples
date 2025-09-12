@@ -1,0 +1,122 @@
+Texture
+
+ 	vertex에 color를 지정하는 방법만으로 그럴싸한 3D 물체를 표현하기는 힘들다
+		너무 많은 수의 vertex 필요할 것
+
+	-> 아이디어: 면에 이미지로 된 스티커를 입히자
+	-> low cost -> high quality rendering
+
+
+Texture Coordinates
+
+	각 정점별로 이미지의 어느 지점을 입힐 것인지
+	[0,1] 사이로 normalized 좌표계
+	이미지의 좌하단 지점이 원점임을 주의
+
+
+	*텍스처가 삼각형에 입혀지는 과정
+
+		1)텍스처 좌표가 정점의 위치와 함께 vertex attributes 형태로 vertex shader 입력됨
+		
+		2)rasterization 과정을 거쳐서 각 픽셀별 텍스처 좌표값이 계산됨
+
+		3)fragment shader에서 텍스처 좌표를 바탕으로 텍스처 이미지의 색상값을 가져옴
+
+
+
+Texture wrapping
+
+	[0,1] 법위를 벗어난 텍스처 좌표값을 처리하는 옵션
+
+	GL_REPEAT 이미지를 반복
+	GL_MIRRORED_REPEAT 이미지를 대칭해서 반복
+	GL_CLAMP_TO_EDGE 이미지에서 직선거리의 픽셀 값을 가져다씀
+	GL_CLAMP_TO_BORDER 경계 색상을 선택하고 칠함
+
+
+Filtering option
+
+	*텍스처로 사용할 이미지의 크기가 화면보다 크거나 작을 경우 처리하는 옵션
+	
+	*GL_NEAREST: 텍스처 좌표값에 가장 가까운 픽셀 값 사용
+
+	*GL_LINEAR: 텍스처 좌표값 주변 4개의 픽셀값 보간(주어진 두 지점의 데이터 사이의 값을 추정하여 
+	, 그 사이의 중간 데이터를 만들어내는 과정)하여 사용
+
+
+
+
+
+opengl에서의 텍스처 사용 과정
+
+	*openGL texture object 생성 및 바인딩
+
+	*wrapping, filtering option 설정
+
+	*이미지 데이터를 gpu 메모리로 복사
+
+	*shader 프로그램이 바인딩 되었을때 사용하고자 하는 texture를 uniform 형태로 프로그램에 전달
+
+	
+
+
+Stb 라이브러리
+
+	Sean Barrett이라는 인디 게임 제작자가 만든 라이브러리
+	
+	Single-file public domain library
+
+		header file 하나에 라이브러리가 제공하고자 하는 모든 기능이 구현
+
+		빌드가 매우 간편
+
+	stb_image
+
+		jpg, png, tag, bmp, psd, gif, HDR, pic 포맷을 지원
+
+
+
+
+
+텍스처 생성
+
+	*context 클래스 내에 texture id 저장을 위한 변수 선언
+	uint32_t m_texture;
+	
+
+
+
+OpenGL Remarks
+
+	OpenGL API 
+
+		glGenTextures(): OpenGL texture object 생성
+		glBindTexture(): 사용하고자 하는 텍스처 바인딩
+		glTexParameteri(): 텍스처 필터/ 래핑 방식등 파라미터 설정
+
+
+		glTexImage2D(target, level,internalFormat, width, height, border, format, type, data)
+
+			바인딩된 텍스처의 크기/픽셀 포맷을 설정하고 GPU에 이미지 데이터를 복사
+			
+			target: 대상이 될 바인딩 텍스처
+
+			level: 설정할 텍스처 레벨. 0레벨이 base
+
+			internalFormat: 텍스처의 픽셀 포맷
+
+			width: 텍스처/이미지의 가로크기 //가로/세로의 크기가 2의 지수 형태일때 gpu 가 가장 효율적으로 처리함
+
+			height: 텍스처/이미지의 세로 크기
+
+			border: 텍스처 외곽의 border 크기
+
+			format: 입력하는 이미지의 픽셀 포맷
+
+			type: 입력하는 이미지의 채널별 데이터 타입
+
+			data: 이미지 데이터가 기록된 메모리 주소
+
+
+
+
