@@ -40,31 +40,16 @@ bool Context::Init(){
     
 
     m_vertexBuffer = Buffer::CreateWithData(GL_ARRAY_BUFFER,GL_STATIC_DRAW,vertices,sizeof(float)*32);
-    
-    /*
-    glGenBuffers(1,&m_vertexBuffer);
-    glBindBuffer(GL_ARRAY_BUFFER,m_vertexBuffer);//m_vertexBuffer가 어떤 데이터가 들어있는 버퍼인지 GL_ARRAY_BUFFER에 바인딩해준다.
-    glBufferData(GL_ARRAY_BUFFER, sizeof(float)*12,vertices,GL_STATIC_DRAW);
-    */
-
-    //m_vertexLayout -> SetAttrib(0,3,GL_FLOAT,GL_FALSE,sizeof(float)*3,0);
-
+   
     m_vertexLayout -> SetAttrib(0,3,GL_FLOAT,GL_FALSE,sizeof(float) *8,0); // 0번 attribute/ 값 개수/type/normalize 여부/ stride/ offset
 	m_vertexLayout -> SetAttrib(1,3,GL_FLOAT,GL_FALSE,sizeof(float) *8, sizeof(float)*3); 
     m_vertexLayout -> SetAttrib(2,2,GL_FLOAT,GL_FALSE,sizeof(float) *8, sizeof(float)*6); 
-    /*
-    glEnableVertexAttribArray(0); //정점 attribute 중 n번째를 사용하도록 설정
-    glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE, sizeof(float)*3,0);
-    */
+ 
 
     m_indexBuffer = Buffer:: CreateWithData(GL_ELEMENT_ARRAY_BUFFER, GL_STATIC_DRAW,indices,sizeof(uint32_t)*6);
 
 
-    /*
-    glGenBuffers(1,&m_indexBuffer);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER,m_indexBuffer);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER,sizeof(uint32_t)*6,indices,GL_STATIC_DRAW);
-    */
+
 
 
 
@@ -104,16 +89,26 @@ bool Context::Init(){
     {
         return false;
     }
+
     SPDLOG_INFO("image: {}x{}, {} channels",image->GetWidth(),image->GetHeight(),image->GetChannelCount());
 
-    glGenTextures(1, &m_texture);
-    glBindTexture(GL_TEXTURE_2D,m_texture);
-    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_LINEAR);// 'i': 정수
-    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MAG_FILTER,GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_WRAP_S,GL_CLAMP_TO_EDGE);//s: 가로축
-    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_WRAP_T,GL_CLAMP_TO_EDGE);//t: 세로축
+    m_texture = Texture::CreateFromImage(image.get());
 
-    glTexImage2D(GL_TEXTURE_2D,0,GL_RGBA8,image->GetWidth(),image->GetHeight(),0,GL_RGB,GL_UNSIGNED_BYTE, image->GetData());
+
+
+    m_texture = Texture::CreateFromImage(image.get());
+
+    auto image2= Image::Load("./image/awesomeface.png");
+    m_texture2 =Texture::CreateFromImage(image2.get());
+
+    glActiveTexture(GL_TEXTURE0);//0번 슬롯 활성화
+    glBindTexture(GL_TEXTURE_2D,m_texture->Get()); //0번슬롯에 텍스처 바인딩, 호출한 순서대로 바인딩
+    glActiveTexture(GL_TEXTURE1);//1번 슬롯 활성화
+    glBindTexture(GL_TEXTURE_2D,m_texture2->Get()); //1번 슬롯에 텍스처 바인딩, 호출한 순서대로 바인딩
+
+    m_program->Use();
+    glUniform1i(glGetUniformLocation(m_program->Get(),"tex"),0);
+    glUniform1i(glGetUniformLocation(m_program->Get(),"tex2"),1);
 
     return true;
 

@@ -876,4 +876,5 @@ CMakeFiles/Texture.dir/src/context.cpp.o: \
   /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/program.h \
   /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/buffer.h \
   /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/vertex_layout.h \
+  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/texture.h \
   /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/image.h

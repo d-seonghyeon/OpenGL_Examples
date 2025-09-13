@@ -25,6 +25,7 @@ add_executable(${PROJECT_NAME}
     src/vertex_layout.h src/vertex_layout.cpp
     src/glad.c
     src/image.h src/image.cpp
+    src/texture.h src/texture.cpp
    
 
         ${DEP_SRCS})

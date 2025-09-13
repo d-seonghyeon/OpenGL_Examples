@@ -1,6 +1,7 @@
-CMakeFiles/Texture.dir/src/main.cpp.o: \
-  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/main.cpp \
-  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/context.h \
+CMakeFiles/Texture.dir/src/texture.cpp.o: \
+  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/texture.cpp \
+  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/texture.h \
+  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/image.h \
   /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
@@ -871,11 +872,4 @@ CMakeFiles/Texture.dir/src/main.cpp.o: \
   /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include/spdlog/sinks/ansicolor_sink-inl.h \
   /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include/spdlog/details/synchronous_factory.h \
   /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include/spdlog/version.h \
-  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include/spdlog/spdlog-inl.h \
-  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/shader.h \
-  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/program.h \
-  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/buffer.h \
-  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/vertex_layout.h \
-  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/texture.h \
-  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/image.h \
-  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include/GLFW/glfw3.h
+  /Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/build/install/include/spdlog/spdlog-inl.h

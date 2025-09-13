@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Texture.dir/src/program.cpp.o.d"
   "CMakeFiles/Texture.dir/src/shader.cpp.o"
   "CMakeFiles/Texture.dir/src/shader.cpp.o.d"
+  "CMakeFiles/Texture.dir/src/texture.cpp.o"
+  "CMakeFiles/Texture.dir/src/texture.cpp.o.d"
   "CMakeFiles/Texture.dir/src/vertex_layout.cpp.o"
   "CMakeFiles/Texture.dir/src/vertex_layout.cpp.o.d"
   "Texture"

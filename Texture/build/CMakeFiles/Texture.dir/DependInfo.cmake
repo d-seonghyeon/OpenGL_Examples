@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/main.cpp" "CMakeFiles/Texture.dir/src/main.cpp.o" "gcc" "CMakeFiles/Texture.dir/src/main.cpp.o.d"
   "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/program.cpp" "CMakeFiles/Texture.dir/src/program.cpp.o" "gcc" "CMakeFiles/Texture.dir/src/program.cpp.o.d"
   "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/shader.cpp" "CMakeFiles/Texture.dir/src/shader.cpp.o" "gcc" "CMakeFiles/Texture.dir/src/shader.cpp.o.d"
+  "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/texture.cpp" "CMakeFiles/Texture.dir/src/texture.cpp.o" "gcc" "CMakeFiles/Texture.dir/src/texture.cpp.o.d"
   "/Users/SH/Desktop/Computer_Graphics/OpenGL/Texture/src/vertex_layout.cpp" "CMakeFiles/Texture.dir/src/vertex_layout.cpp.o" "gcc" "CMakeFiles/Texture.dir/src/vertex_layout.cpp.o.d"
   )
 
