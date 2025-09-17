@@ -10,7 +10,6 @@ class Program{
     public:
         static ProgramUPtr Create(const std::vector<ShaderPtr> &shaders);//shared pointer 형태
 
-
         ~Program();
         uint32_t Get() const {return m_program;}
         void Use() const;

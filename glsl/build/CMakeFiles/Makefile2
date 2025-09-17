@@ -91,9 +91,9 @@ clean: CMakeFiles/dep_glad.dir/clean
 # Target rules for target CMakeFiles/glsl.dir
 
 # All Build rule for target.
-CMakeFiles/glsl.dir/all: CMakeFiles/dep_spdlog.dir/all
 CMakeFiles/glsl.dir/all: CMakeFiles/dep_glfw.dir/all
 CMakeFiles/glsl.dir/all: CMakeFiles/dep_glad.dir/all
+CMakeFiles/glsl.dir/all: CMakeFiles/dep_spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glsl.dir/build.make CMakeFiles/glsl.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glsl.dir/build.make CMakeFiles/glsl.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/CMakeFiles --progress-num=27,28,29,30,31,32,33,34,35 "Built target glsl"
@@ -111,9 +111,9 @@ glsl: CMakeFiles/glsl.dir/rule
 .PHONY : glsl
 
 # codegen rule for target.
-CMakeFiles/glsl.dir/codegen: CMakeFiles/dep_spdlog.dir/all
 CMakeFiles/glsl.dir/codegen: CMakeFiles/dep_glfw.dir/all
 CMakeFiles/glsl.dir/codegen: CMakeFiles/dep_glad.dir/all
+CMakeFiles/glsl.dir/codegen: CMakeFiles/dep_spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glsl.dir/build.make CMakeFiles/glsl.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/SH/Desktop/Computer_Graphics/OpenGL/glsl/build/CMakeFiles --progress-num=27,28,29,30,31,32,33,34,35 "Finished codegen for target glsl"
 .PHONY : CMakeFiles/glsl.dir/codegen

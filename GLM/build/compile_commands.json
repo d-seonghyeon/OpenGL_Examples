@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"GLM\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/GLM.dir/src/main.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/main.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/main.cpp",
+  "output": "CMakeFiles/GLM.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"GLM\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/GLM.dir/src/common.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/common.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/common.cpp",
+  "output": "CMakeFiles/GLM.dir/src/common.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"GLM\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/GLM.dir/src/shader.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/shader.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/shader.cpp",
+  "output": "CMakeFiles/GLM.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"GLM\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/GLM.dir/src/program.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/program.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/program.cpp",
+  "output": "CMakeFiles/GLM.dir/src/program.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"GLM\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/GLM.dir/src/context.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/context.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/context.cpp",
+  "output": "CMakeFiles/GLM.dir/src/context.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"GLM\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/GLM.dir/src/buffer.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/buffer.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/buffer.cpp",
+  "output": "CMakeFiles/GLM.dir/src/buffer.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"GLM\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/GLM.dir/src/vertex_layout.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/vertex_layout.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/vertex_layout.cpp",
+  "output": "CMakeFiles/GLM.dir/src/vertex_layout.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build",
+  "command": "/usr/bin/clang -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"GLM\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/external/glad/include -g -arch arm64 -o CMakeFiles/GLM.dir/src/glad.c.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/glad.c",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/glad.c",
+  "output": "CMakeFiles/GLM.dir/src/glad.c.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"GLM\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/GLM.dir/src/image.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/image.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/image.cpp",
+  "output": "CMakeFiles/GLM.dir/src/image.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"GLM\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/GLM.dir/src/texture.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/texture.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/GLM/src/texture.cpp",
+  "output": "CMakeFiles/GLM.dir/src/texture.cpp.o"
+}
+]
