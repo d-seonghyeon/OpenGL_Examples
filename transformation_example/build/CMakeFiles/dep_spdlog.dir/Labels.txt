@@ -1,0 +1,14 @@
+# Target labels
+ dep_spdlog
+# Source files and their labels
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_spdlog
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_spdlog.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_spdlog-complete.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-build.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-configure.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-download.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-install.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-mkdir.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-patch.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-test.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-update.rule

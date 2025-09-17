@@ -1,0 +1,8 @@
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/transformation_example.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_spdlog.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_glfw.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_glad.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_stb.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_glm.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/edit_cache.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/rebuild_cache.dir

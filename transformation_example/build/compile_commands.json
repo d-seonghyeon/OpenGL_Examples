@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"transformation_example\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/transformation_example.dir/src/main.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/main.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/main.cpp",
+  "output": "CMakeFiles/transformation_example.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"transformation_example\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/transformation_example.dir/src/common.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/common.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/common.cpp",
+  "output": "CMakeFiles/transformation_example.dir/src/common.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"transformation_example\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/transformation_example.dir/src/shader.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/shader.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/shader.cpp",
+  "output": "CMakeFiles/transformation_example.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"transformation_example\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/transformation_example.dir/src/program.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/program.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/program.cpp",
+  "output": "CMakeFiles/transformation_example.dir/src/program.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"transformation_example\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/transformation_example.dir/src/context.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/context.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/context.cpp",
+  "output": "CMakeFiles/transformation_example.dir/src/context.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"transformation_example\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/transformation_example.dir/src/buffer.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/buffer.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/buffer.cpp",
+  "output": "CMakeFiles/transformation_example.dir/src/buffer.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"transformation_example\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/transformation_example.dir/src/vertex_layout.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/vertex_layout.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/vertex_layout.cpp",
+  "output": "CMakeFiles/transformation_example.dir/src/vertex_layout.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build",
+  "command": "/usr/bin/clang -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"transformation_example\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/external/glad/include -g -arch arm64 -o CMakeFiles/transformation_example.dir/src/glad.c.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/glad.c",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/glad.c",
+  "output": "CMakeFiles/transformation_example.dir/src/glad.c.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"transformation_example\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/transformation_example.dir/src/image.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/image.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/image.cpp",
+  "output": "CMakeFiles/transformation_example.dir/src/image.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"transformation_example\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/transformation_example.dir/src/texture.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/texture.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/src/texture.cpp",
+  "output": "CMakeFiles/transformation_example.dir/src/texture.cpp.o"
+}
+]

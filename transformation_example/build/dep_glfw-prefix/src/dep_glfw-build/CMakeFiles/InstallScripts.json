@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glfw-prefix/src/dep_glfw-build/cmake_install.cmake",
+		"/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glfw-prefix/src/dep_glfw-build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_glad"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_glad.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_glad-complete.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-build.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-configure.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-download.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-install.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-mkdir.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-patch.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glad"
+		],
+		"name" : "dep_glad"
+	}
+}

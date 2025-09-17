@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_glm"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_glm.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_glm-complete.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-build.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-configure.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-download.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-install.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-mkdir.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-patch.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-test.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glm"
+		],
+		"name" : "dep_glm"
+	}
+}

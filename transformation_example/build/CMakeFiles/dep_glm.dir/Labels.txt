@@ -1,0 +1,14 @@
+# Target labels
+ dep_glm
+# Source files and their labels
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_glm
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_glm.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/CMakeFiles/dep_glm-complete.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-build.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-configure.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-download.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-install.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-mkdir.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-patch.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-test.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/transformation_example/build/dep_glm-prefix/src/dep_glm-stamp/dep_glm-update.rule
