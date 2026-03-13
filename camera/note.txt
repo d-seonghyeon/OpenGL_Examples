@@ -1,0 +1,121 @@
+**Camera/view space
+
+	3D 공간을 어느 시점에서 어떤방향으로 바라볼 것인가 결정
+	카메라를 조작하기 위한 파라미터로부터 view transfrom을 유도
+
+**카메라 파라미터
+	camera position: 카메라 위치
+	camera target: 카메라가 바라보는 중심 위치
+	camera up vector: 카메라 화면의 세로 축 방향
+
+**결과 행렬
+	camera의 local-to-world transfrom의 inverse
+	
+
+**카메라 3축 결정 과정
+
+	e= camera position
+	t= camera target
+	u= camera upvector
+	z= e-t /||e-t||
+	x= u x z /||u x z||
+	y= z x x
+	p= e
+
+**glm::lookAt 함수 활용 -> camera matrix 자동 계산
+
+auto cameraPos = gem::vec3(0.0f, 0.0f, 3.0f);
+auto cameraTarget = gem::vec3(0.0f, 0.0f, 0.0f);
+auto cameraUp = game::vec3(0.0f, 1.0f, 0.0f);
+
+auto view = glm::lookAt(cameraPos, cameraTarget, cameraUp);
+
+
+
+**주변을 빙글빙글 도는 카메라
+
+float angle = glfwGetTime() * glm::pi<float>() *0.5; //4초마다 1바퀴
+auto x = sinf(angle)* 10.0f; //반지름 = 10
+auto z = cosf(angle) * 10.0f; //반지름 = 10
+auto cameraPos = glm::vec3(x,0.0f,z);
+auto cameraTarget = glm::vec3(0.0f,0.0f,0.0f);
+auto cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
+
+auto view = glm::lookAt(cameraPos, cameraTarget, cameraUp);
+
+
+
+
+**interactive camera
+
+w/a/s/d/q/e: 전후좌우 + 상하 이동
+마우스 커서: 카메라 화전
+
+**refactoring
+
+ 화면 크기 관련 처리 리팩토링: 
+	context.h public: void(Reshape(int width, int height);
+		  private: int m_width {WINDOWS_WIDTH}
+ 		           int m_height {WINDOWS_HEIGHT} 추가
+
+
+ Context::Reshape() 함수 구현 및 프로젝션 행렬 계산식 수정
+
+	 Context::Reshape(int width, int height){
+		m_width =width;
+		m_height =height;
+		glViewport(0,0,m_width,m_height);}
+
+
+	 auto projection = glm::perspective(glm::radians(45.0f),(float)m_width/(float)m_height,0.01f,20.0f);
+
+
+ 
+ 
+
+ glfw callback 내에서 context 사용 (user pointer 기능을 이용)
+
+    auto context = Context::Create();
+    if(!context){
+        SPDLOG_ERROR("failed to create context");
+        glfwTerminate();
+        return -1;
+    }
+    
+    //context 생성 후 userpointer 이용
+    glfwSetWindowUserPointer(window,context.get()); //임의의 pointer를 생성해서 window를 설정
+    auto pointer = (Context*)glfwGetWindowUserPointer(window);
+
+
+
+
+     void OnFramebufferSizeChange함수 내에서
+	auto context = (Context*)glfwGetWindowUserPointer(window);
+	context->Reshape(width,height); 추가
+
+
+
+
+
+**Euler angle
+
+	물체의 회전 정보를 나타내는 대표적인 방식
+	roll(z) 도리각, pitch(x) 끄덕각, yaw(y) 갸웃각 3개의 회전각
+	
+
+**카메라 회전각
+
+	카메라 회전에 roll은 보통 사용하지 않음
+		대신 up vector 기준으로 roll 설정
+	따라서 yaw, pitch만 가지고 camera front 방향을 결정
+
+
+
+	
+
+
+
+
+
+
+

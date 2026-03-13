@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"camera\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/external/glad/include -g -arch arm64 -o CMakeFiles/camera.dir/src/main.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/main.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/main.cpp",
+  "output": "CMakeFiles/camera.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"camera\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/external/glad/include -g -arch arm64 -o CMakeFiles/camera.dir/src/common.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/common.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/common.cpp",
+  "output": "CMakeFiles/camera.dir/src/common.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"camera\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/external/glad/include -g -arch arm64 -o CMakeFiles/camera.dir/src/shader.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/shader.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/shader.cpp",
+  "output": "CMakeFiles/camera.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"camera\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/external/glad/include -g -arch arm64 -o CMakeFiles/camera.dir/src/program.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/program.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/program.cpp",
+  "output": "CMakeFiles/camera.dir/src/program.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"camera\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/external/glad/include -g -arch arm64 -o CMakeFiles/camera.dir/src/context.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/context.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/context.cpp",
+  "output": "CMakeFiles/camera.dir/src/context.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"camera\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/external/glad/include -g -arch arm64 -o CMakeFiles/camera.dir/src/buffer.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/buffer.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/buffer.cpp",
+  "output": "CMakeFiles/camera.dir/src/buffer.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"camera\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/external/glad/include -g -arch arm64 -o CMakeFiles/camera.dir/src/vertex_layout.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/vertex_layout.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/vertex_layout.cpp",
+  "output": "CMakeFiles/camera.dir/src/vertex_layout.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-gcc-14 -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"camera\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/external/glad/include -g -arch arm64 -o CMakeFiles/camera.dir/src/glad.c.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/glad.c",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/glad.c",
+  "output": "CMakeFiles/camera.dir/src/glad.c.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"camera\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/external/glad/include -g -arch arm64 -o CMakeFiles/camera.dir/src/image.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/image.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/image.cpp",
+  "output": "CMakeFiles/camera.dir/src/image.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"camera\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/external/glad/include -g -arch arm64 -o CMakeFiles/camera.dir/src/texture.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/texture.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/camera/src/texture.cpp",
+  "output": "CMakeFiles/camera.dir/src/texture.cpp.o"
+}
+]
