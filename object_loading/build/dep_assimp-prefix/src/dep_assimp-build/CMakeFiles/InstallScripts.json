@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/SH/Desktop/Computer_Graphics/OpenGL/object_loading/build/dep_assimp-prefix/src/dep_assimp-build/cmake_install.cmake",
+		"/Users/SH/Desktop/Computer_Graphics/OpenGL/object_loading/build/dep_assimp-prefix/src/dep_assimp-build/code/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

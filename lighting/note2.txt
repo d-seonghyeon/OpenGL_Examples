@@ -1,0 +1,60 @@
+**GUI in OpenGL
+
+	1. OpenGL 화면에 그림을 그리기 위해서는 Shader, Program, VBO, VAO, EBO, UNIFORM, TEXTURE등이 필요
+	Button, Slider, Textfield 등 기본적인 GUI를 구현하는 것에도 매우 큰 노력이 필요함
+
+	Qt programming - 크로스 플랫폼 ui 프레임워크 
+
+
+
+	2. 두가지 접근 방식:
+
+		1) GUI 프레임워크를 사용하여 GUI 화면을 구성하고 그 중에서 OpenGL surface를 만들어 
+		원하는 장면을 만든다. Ex)Win32,MFC,QT,Cocoa, Android
+
+		2) OpenGL 화면 내부에 GUI 콤포넌트를 만들고 이벤트를 처리할 수 있는 라이브러리를 사용한다.
+
+	3. https://github.com/ocornut/imgui, 오픈소스 라이브러리, Immediate-Mode GUI, Graphics API를 
+	이용하여 GUI 콤포넌트를 직접 그리는 기능 제공
+	
+
+	4. 특징
+
+		1) Immediate Mode GUI
+		: ui를 구성하는 코드가 렌더링 코드 안에 들어가 있음
+		*장점: 간단한 ui 만들때는 편함
+		*단점: 복잡한 ui는 적합 x	
+
+		2) Rendering Backend 분리
+		: 다양한 graphics api 함께 사용 가능 ex) directs, Vulcan
+
+		3) Graphics programming에 필요한 GUI component
+			vector editor
+			Color picker
+		
+		4) Nearly zero-dependency
+			빌드가 간단
+
+	
+	5. Immediate Mode
+		매 렌더링 루프마다(매 프레임마다) UI를 그린다.
+
+
+
+**ImGui UI 코드의 특성
+
+	함수 하나가 UI component 하나에 대응
+	boolean 타입의 값을 리턴
+	리턴값이 true인 경우 해당 ui가 조작되었음을 의미
+		ui조작 이벤트에 대한 액션 로직을 if로 작성할 수 있음
+
+
+
+
+
+
+
+
+
+
+

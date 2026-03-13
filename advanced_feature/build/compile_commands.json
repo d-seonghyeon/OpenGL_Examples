@@ -1,0 +1,116 @@
+[
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui/imgui_draw.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui/imgui_tables.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui/imgui_widgets.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui/imgui.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui/imgui.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_impl_glfw.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui/imgui_impl_glfw.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_impl_opengl3.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui/imgui_impl_opengl3.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"advanced_feature\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/advanced_feature.dir/src/main.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/main.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/main.cpp",
+  "output": "CMakeFiles/advanced_feature.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"advanced_feature\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/advanced_feature.dir/src/common.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/common.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/common.cpp",
+  "output": "CMakeFiles/advanced_feature.dir/src/common.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"advanced_feature\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/advanced_feature.dir/src/shader.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/shader.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/shader.cpp",
+  "output": "CMakeFiles/advanced_feature.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"advanced_feature\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/advanced_feature.dir/src/program.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/program.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/program.cpp",
+  "output": "CMakeFiles/advanced_feature.dir/src/program.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"advanced_feature\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/advanced_feature.dir/src/context.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/context.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/context.cpp",
+  "output": "CMakeFiles/advanced_feature.dir/src/context.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"advanced_feature\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/advanced_feature.dir/src/buffer.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/buffer.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/buffer.cpp",
+  "output": "CMakeFiles/advanced_feature.dir/src/buffer.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"advanced_feature\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/advanced_feature.dir/src/vertex_layout.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/vertex_layout.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/vertex_layout.cpp",
+  "output": "CMakeFiles/advanced_feature.dir/src/vertex_layout.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"advanced_feature\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/external/glad/include -g -arch arm64 -o CMakeFiles/advanced_feature.dir/src/glad.c.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/glad.c",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/glad.c",
+  "output": "CMakeFiles/advanced_feature.dir/src/glad.c.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"advanced_feature\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/advanced_feature.dir/src/image.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/image.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/image.cpp",
+  "output": "CMakeFiles/advanced_feature.dir/src/image.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"advanced_feature\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/advanced_feature.dir/src/texture.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/texture.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/texture.cpp",
+  "output": "CMakeFiles/advanced_feature.dir/src/texture.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"advanced_feature\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/advanced_feature.dir/src/mesh.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/mesh.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/mesh.cpp",
+  "output": "CMakeFiles/advanced_feature.dir/src/mesh.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"advanced_feature\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/advanced_feature.dir/src/model.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/model.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/model.cpp",
+  "output": "CMakeFiles/advanced_feature.dir/src/model.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"advanced_feature\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/advanced_feature.dir/src/framebuffer.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/framebuffer.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_feature/src/framebuffer.cpp",
+  "output": "CMakeFiles/advanced_feature.dir/src/framebuffer.cpp.o"
+}
+]

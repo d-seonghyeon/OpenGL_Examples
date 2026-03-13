@@ -1,0 +1,116 @@
+[
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui/imgui_draw.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui/imgui_tables.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui/imgui_widgets.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui/imgui.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui/imgui.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_impl_glfw.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui/imgui_impl_glfw.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_impl_opengl3.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui/imgui_impl_opengl3.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"depth_test\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/depth_test.dir/src/main.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/main.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/main.cpp",
+  "output": "CMakeFiles/depth_test.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"depth_test\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/depth_test.dir/src/common.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/common.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/common.cpp",
+  "output": "CMakeFiles/depth_test.dir/src/common.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"depth_test\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/depth_test.dir/src/shader.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/shader.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/shader.cpp",
+  "output": "CMakeFiles/depth_test.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"depth_test\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/depth_test.dir/src/program.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/program.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/program.cpp",
+  "output": "CMakeFiles/depth_test.dir/src/program.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"depth_test\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/depth_test.dir/src/context.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/context.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/context.cpp",
+  "output": "CMakeFiles/depth_test.dir/src/context.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"depth_test\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/depth_test.dir/src/buffer.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/buffer.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/buffer.cpp",
+  "output": "CMakeFiles/depth_test.dir/src/buffer.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"depth_test\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/depth_test.dir/src/vertex_layout.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/vertex_layout.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/vertex_layout.cpp",
+  "output": "CMakeFiles/depth_test.dir/src/vertex_layout.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"depth_test\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/external/glad/include -g -arch arm64 -o CMakeFiles/depth_test.dir/src/glad.c.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/glad.c",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/glad.c",
+  "output": "CMakeFiles/depth_test.dir/src/glad.c.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"depth_test\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/depth_test.dir/src/image.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/image.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/image.cpp",
+  "output": "CMakeFiles/depth_test.dir/src/image.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"depth_test\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/depth_test.dir/src/texture.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/texture.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/texture.cpp",
+  "output": "CMakeFiles/depth_test.dir/src/texture.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"depth_test\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/depth_test.dir/src/mesh.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/mesh.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/mesh.cpp",
+  "output": "CMakeFiles/depth_test.dir/src/mesh.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"depth_test\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/depth_test.dir/src/model.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/model.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/model.cpp",
+  "output": "CMakeFiles/depth_test.dir/src/model.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"depth_test\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/depth_test.dir/src/framebuffer.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/framebuffer.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/depth_test/src/framebuffer.cpp",
+  "output": "CMakeFiles/depth_test.dir/src/framebuffer.cpp.o"
+}
+]

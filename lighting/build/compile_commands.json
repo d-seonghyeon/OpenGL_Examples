@@ -1,0 +1,98 @@
+[
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui/imgui_draw.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui/imgui_tables.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui/imgui_widgets.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui/imgui.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui/imgui.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_impl_glfw.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui/imgui_impl_glfw.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++  -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/imgui.dir/imgui/imgui_impl_opengl3.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui/imgui_impl_opengl3.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/imgui.dir/imgui/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"lighting\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/lighting.dir/src/main.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/main.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/main.cpp",
+  "output": "CMakeFiles/lighting.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"lighting\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/lighting.dir/src/common.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/common.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/common.cpp",
+  "output": "CMakeFiles/lighting.dir/src/common.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"lighting\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/lighting.dir/src/shader.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/shader.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/shader.cpp",
+  "output": "CMakeFiles/lighting.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"lighting\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/lighting.dir/src/program.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/program.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/program.cpp",
+  "output": "CMakeFiles/lighting.dir/src/program.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"lighting\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/lighting.dir/src/context.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/context.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/context.cpp",
+  "output": "CMakeFiles/lighting.dir/src/context.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"lighting\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/lighting.dir/src/buffer.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/buffer.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/buffer.cpp",
+  "output": "CMakeFiles/lighting.dir/src/buffer.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"lighting\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/lighting.dir/src/vertex_layout.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/vertex_layout.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/vertex_layout.cpp",
+  "output": "CMakeFiles/lighting.dir/src/vertex_layout.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"lighting\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/external/glad/include -g -arch arm64 -o CMakeFiles/lighting.dir/src/glad.c.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/glad.c",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/glad.c",
+  "output": "CMakeFiles/lighting.dir/src/glad.c.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"lighting\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/lighting.dir/src/image.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/image.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/image.cpp",
+  "output": "CMakeFiles/lighting.dir/src/image.cpp.o"
+},
+{
+  "directory": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build",
+  "command": "/usr/bin/clang++ -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"lighting\\\" -DWINDOW_WIDTH=960 -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/install/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/dep_glad-prefix/src/dep_glad/include -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/imgui -I/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/external/glad/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/lighting.dir/src/texture.cpp.o -c /Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/texture.cpp",
+  "file": "/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/src/texture.cpp",
+  "output": "CMakeFiles/lighting.dir/src/texture.cpp.o"
+}
+]

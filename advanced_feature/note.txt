@@ -1,0 +1,134 @@
+**cubemap
+
+	1. 2D 텍스처 6장으로 정유면체 형태로 이어붙인 텍스처 맵
+	2. 주변 환경을 그리거나, 주변 환경을 반사시켜서 사실감을 높이는데 효과적
+	3. 원점을 기준으로 하는 3차원 방향 벡터로부터 텍스처 픽셀값을 샘플링함
+
+**skybox
+
+	*3D 장면의 뒷배경을 채워주는 큰 큐브 적은 정점으로 주변 환경을 그릴 수 있음
+
+**Environment mapping
+
+	*주변을 감싸고 있는 환경을 렌더링하고자 하는 오브젝트에 적용하는 방식
+		1)주변 환경이 물체에 반사되거나
+		2)주변 환경이 물체에 굴절되어 보이는 경우
+
+	1.반사
+		1)시선 벡터와 물체의 법선 벡터를 이용하여 반사 벡터를 계산
+		2)벡터 방향으로부터 큐브맵 텍스처의 픽셀값을 가져옴
+		3)보통 단독으로 사용하지는 않고 일반 쉐이더(phong,PBS 등)에 섞어서 사용
+
+		 **문제점: cube map에서만 색상을 가져오므로 근처의 오브젝트가 비치지 않아서 비현실성이 있음
+
+
+**Dynamic environment map
+
+	*고정된 이미지를 로딩하는 형태가 아닌, 매 프레임마다 변하는 환경 맵
+	*Framebuffer를 이용하여 매 프레임 cube map의 각 면을 렌더링
+	*결국 6번의 렌더링이 사전에 이루어져야 하므로 성능에 영향을 미침
+
+	ex) 실시간으로 해가 뜨고 지는 맵 만들 때 유용
+
+**Advanced Data
+
+	*VBO, IBO의 데이터를 관리하는 방법
+		*지금까지 사용했던 VBO에 데이터 관리: glBufferData()
+
+		*glBufferData()에 메모리 포인터 인자에 nullptr을 넘겨주면, 메모리 할당만 하고 복사는 이루어지지 않음
+
+		*cpu->gpu 비용 많이듬 따라서 gpu->gpu로 버퍼를 복사하는 glCopyBufferSubData이용
+		glCopyBufferSubData(target,wtarget,roffset,woffset,size)
+		ex) glBindBuffer(GL_COPY_READ_BUFFER,vbo1);
+		    glBindBuffer(GL_COPY_WRITE_BUFFER,vbo2);
+		    glCopyBufferSubData(GL_COPY_READ_BUFFER,GL_COPY_WRITE_BUFFER,0,0,8*sizeof(float));
+
+
+	cf)glTexSubImage2D()
+		이미 GPU 메모리가 할당된 2D texture에 새로운 CPU 이미지 데이터를 업데이트하고 싶을 때 사용하는 함수
+
+	glBindBuffer(GL_TEXTURE_2D,texture);
+	glTexSubImage2D(GL_TEXTURE_2D,level,xoffset,yoffset,width,height,GL_RGBA,GL_UNSIGNED_BYTE,imageptr);
+
+
+	*Built-in variable
+		:shader 내에서 사용할 수 있는 미리 선언된 변수
+	
+		ex) vertex shader의 gl_Position, output등
+
+		1. gl_PointSize
+		2. gl_VertexID
+		3. gl_FragCoord: 현재 픽셀의 화면상 위치
+		4. gl_FrontFacing
+		5. gl_FragDepth: 픽셀 깊이값 직접 설정 가능, early depth test 비활성화
+							-> depth test 통과 못할 픽셀까지 모두 그려야되서 비용 낭비
+							-> 필요할 때만 사용
+
+**Uniform buffer object
+
+		여러 shader program들이 같은 uniform variable을 사용하는 경우가 많음
+			ex)model, view, projection 등의 transform등
+
+		다른 program을 사용할때마다 uniform 변수를 새로 설정해주는 번거로움이 있음
+
+
+		UBO를 사용하면 모든 shader들이 같이 사용 할 수 있는 global uniform 설정 가능
+
+
+		*layout(std140)
+
+			메모리 레이아웃 설정
+				기본 레이아웃의 경우 최적화가 이루어짐 ->gpu메모리의 접근 효율성을 위해 4/16바이트로 정렬
+
+			std140 메모리 레이아웃의 경우 메모리 공간은 다소 많이 사용하지만 예측 가능한 레이아웃 제공
+
+
+**geometry shader
+
+		*vertex shder와 fragment shader 사이에 추가할 수 있는 shader
+		*하나의 primitive를 입력받음
+		*이를 다른 primitive로 출력할 수 있는 기능 제공		
+
+
+		1.입력 받고자 하는 primitive를 layout () in에 정의
+		2.출력할 primitive를 layout () out에 명시
+		3.EmitVertex() 함수로 gl_Position에 설정된 정점을 생성함
+		4.EndPrimitive()로 현재까지 생성한 정점들을 묶은 primitive 생성
+
+		ex1) exploding object
+		ex2) normal vector visualization : 삼각형의 normal 방향을 계산하여 line 형태로 primitive를 생성하여 normal 
+		vector 시각화
+
+
+**instancing
+
+		*동일한 오브젝트를 여러번 그려야 하는 경우
+
+			1)수풀 그리기: 몇개의 vertex로 되어있는 풀 object를 여러번 그리기
+			2)glDrawArrays()와 같은 함수를 여러번 호출 하면 성능 저하 발생
+
+
+		1. 여러 오브젝트를 한번의 draw call로 그리도록 해주는 기능
+		2. CPU -> GPU간 통신을 줄여서 성능 저하 방지		
+		3. glDrawArraysInstanced(), glDrawElementsInstanced() 함수 사용
+		4. 파라미터로 인스턴스의 개수 제공
+
+**Anti - Alliasing
+
+	*앨리어싱(ALIASING) 현상
+		: 렌더링된 오브젝트의 경계 부분에 도트로 된 계단이 눈에 띄는 현상
+
+
+	1.계단 현상을 없애는 기법을 총칭함
+	2.예전의 기법: Supersampling Anti-Aliasing(ssaa)
+		1)원래 해상도보다 더 큰 해상도로 렌더링
+		2)렌더링된 영상을 작게 다운샘플링
+		3)큰 해상도로 렌더링할때 매우 비용이 커지는 문제 발생
+		
+	 Multisample Anti-Aliasing(MSAA)
+		OpenGL에서 기본으로 제공하는 anti-aliasing 기법
+
+
+
+
+

@@ -1,0 +1,14 @@
+# Target labels
+ dep_assimp
+# Source files and their labels
+/Users/SH/Desktop/Computer_Graphics/OpenGL/object_loading/build/CMakeFiles/dep_assimp
+/Users/SH/Desktop/Computer_Graphics/OpenGL/object_loading/build/CMakeFiles/dep_assimp.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/object_loading/build/CMakeFiles/dep_assimp-complete.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/object_loading/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-build.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/object_loading/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-configure.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/object_loading/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-download.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/object_loading/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-install.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/object_loading/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-mkdir.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/object_loading/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-patch.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/object_loading/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-test.rule
+/Users/SH/Desktop/Computer_Graphics/OpenGL/object_loading/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-update.rule

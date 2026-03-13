@@ -1,0 +1,9 @@
+/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/CMakeFiles/lighting.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/CMakeFiles/dep_spdlog.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/CMakeFiles/dep_glfw.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/CMakeFiles/dep_glad.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/CMakeFiles/dep_stb.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/CMakeFiles/dep_glm.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/CMakeFiles/imgui.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/CMakeFiles/edit_cache.dir
+/Users/SH/Desktop/Computer_Graphics/OpenGL/lighting/build/CMakeFiles/rebuild_cache.dir

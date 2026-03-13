@@ -1,0 +1,26 @@
+** zshell 시영 후 cmake build, 빌드(cmd +shift +B), 저장(cmd +s) 안먹힘 오류  
+
+1. tasks.json에 "command": "/opt/homebrew/bin/cmake", 추가
+
+2. 터미널에서
+nano ~/.zprofile -> export PATH="/opt/homebrew/bin:$PATH" ->source ~/.zprofile
+저장: Ctrl + 0
+종료: Ctrl + X
+
+3. cmd +shift +P -> preferences user settings (json) -"cmake.cmakePath": "/opt/homebrew/bin/cmake" 추가
+
+
+
+** 빌드 방법 수정 2026/2/10 
+
+빌드파일 복사할 필요 x
+수정 f7 빌드하고 homebrew 포함되어있는 cpp 경로 선택
+cmake빌드도 cmake빌드 사용 
+.vscode파일도 복사해서 경로만 바꿔주고 사용
+
+
+**2026/2/11
+
+Imgui 사용시 컴파일러 충돌 문제-> tasks.json 수정 -> 컴파일러 clang 17 선택
+
+**

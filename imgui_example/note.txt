@@ -1,0 +1,106 @@
+**lighting
+
+	1. 물체 표면의 색상을 결정하는 과정
+	
+		1)광원(light source)
+
+		2)재질(material)
+
+		3)매우 복잡한 물리적 현상
+
+
+**Illumination Model
+
+	1.Local/Global Illumination Model
+
+		1)반사광: 광원이 물체에 반사되어 발생한 빛
+		2)Local: 반사광을 고려하지 않는다
+		3)Global: 반사광을 고려한다 -> 더 사실적, 높은 계산 비용
+
+
+	2.Phong's Illumination model
+
+		1)가장 대표적인 local illumination model
+
+		2)ambient(주변광), diffuse(분산광), specular(반사광)
+
+		3)위 3개의 빛을 더하여 최종 색상을 결정
+
+
+
+	3.Ambient Light
+
+		1)주변광
+		2)빛의 방향, 물체 표면의 방향, 시선 방향과 아무 상관 없이 물체가 기본적으로 받는 빛
+		3)상수 값으로 처리
+
+	4.Diffuse Light
+
+		1)분산광
+		2)빛이 표면에 부딪혔을떄, 모든 방향으로 고르게 퍼지는 빛
+			-> 즉 시선의 방향과는 상관없이 빛의 방향과 물체 표면의 방향에 따라 결정
+		3)diffuse = dot(light, normal)
+		4)(빛의 방향) = (광원 위치) - (각 픽셀의 3D 위치)
+		5)normal을 다시 normalize 하는 이유
+			*vertex shader에서 계산된 normal은 rasterization 되는 과정에서 선형 보간이 진행됨
+			*unit vector 간의 선형 보간 결과는 unit vector 보장을 못하기 때문에 normalization 해야함
+
+
+		*gl_Position 외에도 position을 계산하여 fragment shader 넘기는 이유
+			gl_Position은 perspective transform이 적용 되어 있어 canonical space 상의 좌표값으로 전환됨
+			diffuse 값을 계산하려면 world space 상에서의 좌표값이 필요
+			normal도 같은 이유로 model transform만 적용
+
+		*normal에 modelTransform의 inverse transpose를 적용하는 이유
+			점이 아닌 벡터의 경우 이렇게 해야 제대로 변환된 값을 계산할 수 있음
+			matrix의 inverse transpose는 모든 점에서 동일하므로 보통 별도의 uniform으로 입력함
+
+
+	5.Specular Light
+
+		1)반사광
+
+		2)빛이 물체 표면에 부딪혀 반사되는 광원
+
+		3)시선이 방향이 반사광의 방향과 동일할 때 가장 강한 빛이 나온다.
+
+		4)reflect = 2 * dot(light, normal) * normal -light
+
+		5)specular = dot(view, reflect)
+
+		6)반사광의 밝기를 결정하는 요소
+			빛의 방향과 밝기
+			표면의 normal 방향
+			시선의 방향
+
+
+		7)reflect(light, normal) 함수
+			*light 벡터 방향의 광선이 normal 벡터 방향의 표면에 부딪혔을 때 반사되는 벡터를 출력하는 내장함수
+		
+		8)현재 카메라의 world space 상의 좌표와 픽셀 좌표간의 차를 통해 시선 벡터 viewDir 계산
+
+		9)reflectDir과 viewDir간의 내적을 통해 반사광을 많이 보는 정도를 계산
+
+		10)specularStrength로 반사광의 정도를 조절
+
+		11)specularShininess로 반사광의 면적 조절
+
+
+
+
+	6.Material
+
+		최종색상 = 빛 색상 * 재질의 색상
+		재질을 ambient/ diffuse/ specular로 나누어 표현
+			*금속 재질은 반사광이 강하다
+			*천 지잴은 반사광이 약하다.
+
+
+*Lighting Maps(material maps)
+
+	재질을 구성하는 ambient, diffuse, specular 모두 텍스처 맵으로 대체 가능
+	우리가 흔히 사용하는 오브젝트의 texture map은 결국 diffuse map으로 사용
+
+	1)
+
+	

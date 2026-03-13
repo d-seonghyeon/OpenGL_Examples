@@ -1,0 +1,23 @@
+**Objective
+	1.박스 외의 오브젝트를 렌더링 해보자
+	2.실제 게임등에 사용되는 오브젝트를 렌더링하기 위해서?
+		3d 모델링 툴을 이용한 3d 모델 디자인
+		3d모델 파일 포맷으로 저장
+		저장된 파일을 읽어들이는 object loader 구현
+
+**3d 모델링 tool
+	1.다양한 종류의 작업: modeling/sculpting/uv unwrapping/rigging/ animation
+	2.대표적인 도구들: 3d studio max, Maya, blender3d
+
+**ASSIMP
+	Open Asset Import Library
+	매우 다양한 3d 모델 파일 지원
+	cross platform
+	c/c++ interface
+
+**scene tree
+	3d 장면을 트리 형식으로 관리하는 방식
+	대부분의 3d tool들이 이러한 방식으로 장면을 관리
+		부모/자식
+		자식의 transform 정보(position/rotation/scale)은 부모의 local coordinates를 기준으로 기술
+
