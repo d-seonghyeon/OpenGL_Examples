@@ -1,0 +1,64 @@
+**Blinn-Phong shading
+
+	1. phong shading의 문제점과 원인
+		1)문제점: Specular shininess 값이 작을 경우, highlight 부분이 잘려지는 현상
+
+		2)원인: specular를 계산할때 view와 reflection 간의 각도가 90도 보다 커지는 경우
+		dot product 값이 0보다 작아져 cutoff 발생
+
+	2. Blinn이 제안한 방식
+
+		1)view와 light를 이등분 하는 벡터(halfway)와 normal 벡터 간의 사잇각으로 계산해보자
+		
+		2)view가 reflection과 일치할 때 halfway벡터는 normal벡터와 일치
+
+
+**Shadow Map
+
+	1. 그림자 렌더링 알고리즘
+
+	2. 알고리즘: light source의 위치에서 물체들을 depth map만 렌더링한다.(shadow map)
+
+		   shadow map을 바탕으로 지금 그리고 있는 픽셀이 빛을 받는지 아닌지 판별한다.
+
+		   lignt 기준으로 depth값만 렌더링한 후(shadow map)
+		   fragPosLight의 현재 depth값과 light위치에서 shadowmap까지의 depth값을 비교해서
+		   같으면 1, light~shadowmap까지의 거리가 더 작으면 0
+
+	3. 문제점: 1)shadow acne (이상한 그림자 줄무늬)
+	
+		 원인: (1)shadow map의 해상도는 한정적이어서 광원으로부터 먼 픽셀들은 동일한 depth값을 샘플링
+		       할 확률이 올라감
+
+		      (2)정확하지 않은 depth값 때문에 줄무늬 그림자 형성
+
+		 개선 방법: (1) bias값을 준다.
+			 *but light direction과 surface normal이 크게 차이 나는 경우 여전히 
+			  shadow acne발생
+			 (2) light direction과 surface normal간의 각도가 크면 bias도 크게 만들자
+
+		
+		2)Peter panning
+
+		원인: bias가 커지면 그림자가 물체와 떨어져서 그려지는 현상
+
+		해결방법: (1)shadow bias값을 잘 조절한다.
+			(2)Shadow map을 그릴때 face culling을 사용하여 뒷면만 그리도록 한다.
+		
+
+
+
+		3)over sampling
+
+		원인: 현재 texture의 wrapping 방식이 GL_REPEAT이기 때문
+
+		해결책: GL_CLAMP_TO_BORDER로 변경하고 border color 지정
+
+
+		4)jagged shadow
+
+		원인: depth map의 한정된 해상도에 의해서 딱딱한 블럭 모양의 그림자가 생성
+
+
+
+

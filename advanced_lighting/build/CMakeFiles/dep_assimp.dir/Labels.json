@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_lighting/build/CMakeFiles/dep_assimp"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_lighting/build/CMakeFiles/dep_assimp.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_lighting/build/CMakeFiles/dep_assimp-complete.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_lighting/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-build.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_lighting/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-configure.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_lighting/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-download.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_lighting/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-install.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_lighting/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-mkdir.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_lighting/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-patch.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_lighting/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-test.rule"
+		},
+		{
+			"file" : "/Users/SH/Desktop/Computer_Graphics/OpenGL/advanced_lighting/build/dep_assimp-prefix/src/dep_assimp-stamp/dep_assimp-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_assimp"
+		],
+		"name" : "dep_assimp"
+	}
+}
